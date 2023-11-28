@@ -1,5 +1,9 @@
 # Bun Unit Test Template
 
+A minimal template for setting up a TypeScript project with unit tests using [Bun](https://bun.sh/).
+
+Note: `bun test` only works on macOS and Linux.
+
 ## Commands
 
 Run tests.
