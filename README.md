@@ -1,15 +1,29 @@
-# bun-unit-test-template
+# Bun Unit Test Template
 
-To install dependencies:
+## Commands
 
-```bash
-bun install
-```
-
-To run:
+Run tests.
 
 ```bash
-bun run index.ts
+bun test
 ```
 
-This project was created using `bun init` in bun v1.0.14. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Run `src/index.ts`.
+
+```bash
+bun run start
+```
+
+## Setup Steps
+
+Run the following command to initialize the Bun project.
+
+```bash
+bun init
+```
+
+Then everything else would have been setup out-of-the box. Including:
+
+- Running TypeScript files with `bun run <filename>`.
+- Writing TypeScript tests with the filename `*.test.ts` and using Jest-like API with the built-in `bun:test` module.
+- Running TypeScript tests with the command `bun test`.
